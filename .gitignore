@@ -11,3 +11,5 @@ apps/studio/macos/Pods/
 apps/studio/android/local.properties
 packages/**/.dart_tool/
 packages/**/build/
+
+/docs/
