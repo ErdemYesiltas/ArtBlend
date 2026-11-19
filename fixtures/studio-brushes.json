@@ -1,0 +1,9 @@
+{
+  "format": "atelier.brushes",
+  "version": 1,
+  "brushes": [
+    {"name": "Fine Ink", "size": 5, "thinning": 0.7, "smoothing": 0.65},
+    {"name": "Broad Marker", "size": 42, "thinning": 0, "smoothing": 0.5},
+    {"name": "Soft Outline", "size": 18, "thinning": 0.35, "smoothing": 0.85}
+  ]
+}

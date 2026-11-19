@@ -1,0 +1,16 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: ArtblendBrushEngineBindings
+description: |
+  Bindings for `src/artblend_brush_engine.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/artblend_brush_engine_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/artblend_brush_engine.h'
+  include-directives:
+    - 'src/artblend_brush_engine.h'
+ffi-native:
+comments:
+  style: any
+  length: full

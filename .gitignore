@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+.tools/
+.qa/
+apps/studio/build/
+apps/studio/android/build/
+apps/studio/.dart_tool/
+apps/studio/.flutter-plugins-dependencies
+apps/studio/ios/Pods/
+apps/studio/macos/Pods/
+apps/studio/android/local.properties
+packages/**/.dart_tool/
+packages/**/build/

@@ -1,0 +1,15 @@
+#!/bin/sh
+set -eu
+task_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+if [ -n "${FLUTTER_BIN:-}" ]; then
+  flutter_executable=$FLUTTER_BIN
+elif command -v flutter >/dev/null 2>&1; then
+  flutter_executable=$(command -v flutter)
+elif [ -x "$HOME/.local/share/flutter/bin/flutter" ]; then
+  flutter_executable="$HOME/.local/share/flutter/bin/flutter"
+else
+  echo "Install Flutter 3.50.0 or set FLUTTER_BIN to its executable." >&2
+  exit 1
+fi
+cd "$task_root/apps/studio"
+exec "$flutter_executable" "$@"
