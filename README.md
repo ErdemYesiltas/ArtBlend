@@ -75,6 +75,10 @@ ArtBlend is an independent project. These products were studied as references fo
 - Flipbook drawing, onion skinning, and timeline-based 2D animation. [Procreate Dreams](https://procreate.com/dreams)
 - Prompt-driven edits scoped to a selected area. [Adobe Photoshop Generative Fill](https://www.adobe.com/products/photoshop/generative-fill.html)
 
+### License
+
+ArtBlend is available under the [MIT License](LICENSE). Bundled components retain their original terms in the [third-party notices](packages/artblend_brush_engine/THIRD_PARTY.md).
+
 ## Türkçe
 
 ArtBlend, macOS, iPadOS ve Android tabletlerde dijital çizim, boyama ve 2B animasyon için geliştirilen deneysel, yerel öncelikli bir stüdyo uygulamasıdır. Kalemle kullanıma uygun tuvali, yerel fırça motorunu ve çizimleri kısa filmlere dönüştürmek için bir zaman çizelgesini bir araya getirir.
@@ -143,3 +147,7 @@ ArtBlend bağımsız bir projedir. Geliştirme sırasında aşağıdaki uygulama
 - Fırça davranışları ve raster ile vektör çizim araçlarının bir arada kullanımı. [Adobe Fresco](https://www.adobe.com/products/fresco.html)
 - Flipbook çizimi, soğan zarı görünümü ve zaman çizelgesine dayalı 2B animasyon. [Procreate Dreams](https://procreate.com/dreams)
 - Metin istemiyle seçili bir alanda görsel düzenleme. [Adobe Photoshop Generative Fill](https://www.adobe.com/products/photoshop/generative-fill.html)
+
+### Lisans
+
+ArtBlend [MIT Lisansı](LICENSE) ile yayımlanır. Birlikte dağıtılan bileşenlerin kendi lisans koşulları [üçüncü taraf bildirimlerinde](packages/artblend_brush_engine/THIRD_PARTY.md) yer alır.
